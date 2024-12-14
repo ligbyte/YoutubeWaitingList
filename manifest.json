@@ -16,5 +16,5 @@
       "256": "images/icon256.png"
     }
   },
-  "permissions": ["storage"]
+  "permissions": ["storage", "tabs", "activeTab"]
 } 
