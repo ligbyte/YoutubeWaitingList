@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube待播放列表",
+  "version": "1.0",
+  "description": "管理Youtube待播放列表的Chrome插件",
+  "icons": {
+    "64": "images/icon64.png",
+    "128": "images/icon128.png",
+    "256": "images/icon256.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "64": "images/icon64.png",
+      "128": "images/icon128.png",
+      "256": "images/icon256.png"
+    }
+  },
+  "permissions": ["storage"]
+} 
