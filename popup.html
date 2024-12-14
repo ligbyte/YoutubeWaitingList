@@ -48,7 +48,7 @@
             font-weight: 500;
             flex: 1;
             transition: all 0.2s ease;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
         }
         #addButton {
             background-color: #1a73e8;
@@ -67,6 +67,13 @@
         button:active {
             transform: scale(0.98);
         }
+        .hint-text {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #5f6368;
+            line-height: 1.4;
+            padding: 8px 0;
+        }
     </style>
 </head>
 <body>
@@ -80,6 +87,9 @@
     <div class="button-container">
         <button id="addButton">添加</button>
         <button id="clearButton">清除</button>
+    </div>
+    <div class="hint-text">
+        提示：该插件可以自动将Youtube博主的主页视频选项卡中的所有视频，添加到待播放列表中，以方便你的观看
     </div>
     <script src="popup.js"></script>
 </body>
